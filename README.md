@@ -16,5 +16,17 @@ Aqui documento minha evolução desde os fundamentos de Git e Docker até pipeli
 - `aula-01/` — Fundamentos de Git e Docker
 
 ## Aprendizados
+[]
 
-[Atualize esta seção a cada aula com seus principais aprendizados]
+- Aprendi os conceitos básicos de controle de versão com Git.
+- Entendi como criar commits e manter um histórico de mudanças.
+- Descobri como proteger arquivos sensíveis com `.gitignore`.
+- Pratiquei criação e uso de branches para desenvolver de forma organizada.
+- Entendi como publicar projetos no GitHub e colaborar com outras pessoas.]
+## Como Executar (Aula 01)
+
+
+```bash
+cd aula-01/app
+npm install
+npm start
