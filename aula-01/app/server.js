@@ -18,7 +18,10 @@ app.get('/health', (req, res) => {
   res.json({ 
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'DevOps Portfolio - Sistema de Pedidos',
+
+    
+    service: 'servico:"DevOps Portfolio API v2",',
+ 
     version: '1.0.0'
   });
 });
