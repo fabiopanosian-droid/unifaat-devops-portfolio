@@ -1,0 +1,20 @@
+# Dependências (serão instaladas no container)
+node_modules/
+npm-debug.log
+
+# Git (não precisa dentro do container)
+.git/
+.gitignore
+
+# Variáveis de ambiente locais
+.env
+
+# Logs
+*.log
+
+# Documentação (não precisa no container de produção)
+README.md
+
+# Docker files (evita loop)
+.dockerignore
+Dockerfile
