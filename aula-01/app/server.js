@@ -20,8 +20,7 @@ app.get('/health', (req, res) => {
     timestamp: new Date().toISOString(),
 
     
-    service: 'servico:"DevOps Portfolio API v2",',
- 
+    service: 'DevOps Portfolio API v2',
     version: '1.0.0'
   });
 });
@@ -33,6 +32,6 @@ app.get('/info', (req, res) => {
     ambiente: process.env.NODE_ENV || 'development'
   });
 });
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`API rodando na porta ${PORT}`);
 });
