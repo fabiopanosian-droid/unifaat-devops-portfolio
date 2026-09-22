@@ -50,4 +50,4 @@ curl http://localhost:3000/health
 
 ## Dificuldades encontradas
 
-A principal dificuldade foi entender a diferença entre executar a aplicação localmente e executá-la dentro de um container. O Dockerfile permitiu padronizar o ambiente da aplicação e  a execução do tf em si.
+A principal dificuldade foi entender a diferença entre executar a aplicação localmente e executá-la dentro de um container. O Dockerfile permitiu padronizar o ambiente da aplicação e a execução do tf em si.
