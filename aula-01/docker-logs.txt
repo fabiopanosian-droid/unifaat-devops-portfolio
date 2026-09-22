@@ -1,6 +1,2 @@
---- Container running ---
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
---- API ---
-{"servico":"DevOps Portfolio API","aluno":"Fábio Panosian","ra":"6325250","aula":"01 - Fundamentos de Git e Docker","status":"online","timestamp":"2026-09-22T00:43:22.927Z"}
---- Health ---
-{"status":"healthy","timestamp":"2026-09-22T00:43:23.054Z","service":"servico:\"DevOps Portfolio API v2\",","version":"1.0.0"}
+CONTAINER ID   IMAGE                  COMMAND                  CREATED        STATUS                  PORTS                                         NAMES
+0ee4998b92d7   portfolio-aula01:1.0   "docker-entrypoint.s…"   1 second ago   Up Less than a second   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   portfolio-test
