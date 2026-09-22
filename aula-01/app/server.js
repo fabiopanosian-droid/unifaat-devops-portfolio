@@ -20,7 +20,7 @@ app.get('/health', (req, res) => {
     timestamp: new Date().toISOString(),
 
     
-    service: 'servico:"DevOps Portfolio API v2",',
+    service: '"DevOps Portfolio API v2",',
  
     version: '1.0.0'
   });

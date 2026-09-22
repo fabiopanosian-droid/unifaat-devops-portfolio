@@ -1,5 +1,5 @@
 CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS                            PORTS                                         NAMES
-4246ba96fd73   portfolio-aula01:1.0        "docker-entrypoint.s…"   16 seconds ago   Up 15 seconds                     0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   portfolio-test
+cb3c2a62e233   portfolio-aula01:1.0        "docker-entrypoint.s…"   11 seconds ago   Up 10 seconds                     0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   portfolio-test
 f84728af656d   proj-estoque-app:latest     "docker-entrypoint.s…"   2 months ago     Up Less than a second             3000/tcp                                      proj_estoque_app
 72397f41133d   postgres:16-alpine          "docker-entrypoint.s…"   3 months ago     Up Less than a second (healthy)   5432/tcp                                      proj_estoque_db
 9416f69bee94   simulado_projeto_web-auth   "/docker-entrypoint.…"   5 months ago     Up Less than a second                                                           web-auth
