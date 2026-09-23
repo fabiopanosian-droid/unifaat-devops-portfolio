@@ -14,16 +14,16 @@ app.get('/', (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
+
 app.get('/health', (req, res) => {
   res.json({ 
     status: 'healthy',
     timestamp: new Date().toISOString(),
-
-    
     service: 'DevOps Portfolio API v2',
     version: '1.0.0'
   });
 });
+
 app.get('/info', (req, res) => {
   res.json({
     empresa: 'TechNova',
@@ -32,6 +32,7 @@ app.get('/info', (req, res) => {
     ambiente: process.env.NODE_ENV || 'development'
   });
 });
+
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`API rodando na porta ${PORT}`);
 });
