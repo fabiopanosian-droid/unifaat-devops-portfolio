@@ -1,0 +1,16 @@
+SIMULACAO - NAO E SAIDA REAL DO TERRAFORM PLAN
+Gerada apenas para documentar o resultado esperado da configuracao.
+O AWS Academy Learner Lab nao estava acessivel durante a entrega.
+
+Exemplo ilustrativo:
+
+Plan: 17 to add, 0 to change, 0 to destroy.
+
+Recursos esperados:
+- 2 grupos IAM
+- 3 usuarios IAM
+- 2 memberships de grupo
+- 4 policies IAM customizadas
+- 4 attachments de policies
+- 1 role IAM
+- 1 instance profile
